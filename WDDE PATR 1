@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwamsia and Foods</title>
+    <style>
+        /* Simple styling to ensure the images fit nicely on screens */
+        .logo-img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .menu-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo Image Added Here -->
+        <img src="logo.jpg" alt="Kwamsia and Foods Logo" class="logo-img">
+        <h1>Kwamsia and Foods</h1>
+        <p>Quick, delicious meals for your daily schedule</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#offers">Special Offers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Kwamsia and Foods</h2>
+            <p>We provide fast, affordable, and high-quality meals tailored for students, workers, and community members on the go.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <article>
+                <h3>Daily Specials</h3>
+                <p>Freshly prepared lunch meals served quickly to fit your break time.</p>
+                <!-- Menu Image Added Here -->
+                <img src="menu.jpg" alt="Kwamsia and Foods Official Menu" class="menu-img">
+            </article>
+        </section>
+
+        <section id="offers">
+            <h2>Morning Order Deals</h2>
+            <p>Place your meal order in the morning to enjoy exclusive discounts and zero waiting time at pickup!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: info@kwamsiafoods.co.za | Phone: +27 12 345 6789</p>
+    </footer>
+
+</body>
+</html>
