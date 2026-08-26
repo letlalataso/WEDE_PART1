@@ -1,0 +1,87 @@
+void main() {
+
+Scanner s = new Scanner(System.in);
+
+
+
+
+
+
+
+    System.out.println(" Enter the Accident Vehicle type : ");
+    String AccidentsVehicleType =s.next();
+    System.out.println(" Enter the City where accident ocurred  : ");
+    String City=s.next();
+    System.out.println(" Enter the total car accident for cape town  : ");
+    int AccidentTotal=s.nextInt();
+
+    
+RoadAccidantReports roadAccidantReports = new RoadAccidantReports(AccidentsVehicleType,City,AccidentTotal);
+roadAccidantReports.printAccidentReport();
+
+
+
+
+public class RoadAccidantReports extends RoadAccidants {
+
+    public RoadAccidantReports(String AccidentsVehicleType, String Ciyt, int AccidentTotal) {
+        super(AccidentsVehicleType, Ciyt, AccidentTotal);
+    }
+    public void printAccidentReport(){
+        System.out.println("Lebo Taso'Accidents Report");
+        System.out.println("Accident Vehicle type "+ getAccidentsVehicleType());
+        System.out.println("*********************************************************************");
+        System.out.println("Accident City "+getCity());
+        System.out.println("Accident total "+getAccidentTotal());
+
+
+    }
+}
+
+
+
+public abstract class RoadAccidants
+{
+
+    String AccidentsVehicleType;
+    String City ;
+    int AccidentTotal;
+
+    public RoadAccidants( String accidentsVehicleType, String City ,int AccidentTotal)
+    {
+       this.AccidentsVehicleType=AccidentsVehicleType;
+       this.City=City;
+       this.AccidentTotal=AccidentTotal;
+    }
+    public String getAccidentsVehicleType(){
+        return AccidentsVehicleType;
+
+    }
+    public String getCity(){
+        return City;
+
+    }
+    public int getAccidentTotal(){
+        return AccidentTotal;
+
+    }
+
+  protected RoadAccidants () {
+
+  }
+
+
+
+
+
+}
+
+
+public interface IRoedAccidents {
+
+    String getAccidentsReport();
+    String getCity() ;
+    int getAccidentTotal();
+
+
+}
