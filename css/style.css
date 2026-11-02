@@ -1,0 +1,251 @@
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General website styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Website header */
+
+header {
+    background-color: #D62828;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Navigation bar */
+
+nav {
+    background-color: #FFC928;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #222222;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+
+/* Main content styling */
+
+main {
+    padding: 30px;
+    line-height: 1.6;
+}
+
+main h2 {
+    color: #D62828;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Section styling */
+
+section {
+    background-color: #FFF8E7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+section h3 {
+    color: #D62828;
+}
+
+
+/* Form styling */
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Button styling */
+
+button {
+    background-color: #D62828;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #A91D1D;
+}
+
+.menu-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main {
+        padding: 20px;
+    }
+
+/* Responsive design for mobile devices */
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .menu-container {
+    grid-template-columns: 1fr;
+}
+
+}
+
+
+/* Typography */
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* Menu layout using CSS Grid */
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-container section {
+    margin: 0;
+}
+
+
+/* Navigation layout using Flexbox */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #ebe0e0;
+    border-color: #D62828;
+}
+
+button:active {
+    background-color: #7A1515;
+    transform: scale(0.98);
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

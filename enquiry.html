@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries | Kwamsia and Foods</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kwamsia and Foods</h1>
+        <p>Quick, delicious meals for your daily schedule.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Our Menu</a>
+        <a href="enquiry.html">Enquiries</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+
+        <h2>Make an Enquiry</h2>
+
+        <p>
+            Do you have questions about our meals, prices or
+            availability? Complete the form below.
+        </p>
+
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="subject">Enquiry Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">Select an option</option>
+                <option value="meal">Meal Information</option>
+                <option value="prices">Prices</option>
+                <option value="availability">Meal Availability</option>
+                <option value="orders">Large Orders</option>
+            </select>
+
+            <br><br>
+
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kwamsia and Foods. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
