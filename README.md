@@ -26,7 +26,7 @@ The website consists of five HTML pages:
 
 - HTML5 – Used to structure the website.
 - CSS3 – Used to style the website and create responsive layouts.
-- JavaScript – Used to implement website functionality.
+- JavaScript – Planned for implementing website functionality in Part 3.
 
 ## 4. Project Structure
 
@@ -73,7 +73,7 @@ The website also uses relative CSS units such as `rem`, `em` and percentages to 
 - Added responsive layouts for desktop, tablet and mobile.
 - Added hover, focus and active effects.
 - Added responsive images using `srcset` and `sizes`.
-- Started preparing screenshots for website testing.
+- Captured desktop, tablet and mobile screenshots for responsive design testing.
 
 **Part 3: JavaScript, SEO and Deployment**
 - JavaScript functionality.
@@ -108,11 +108,14 @@ The website also uses relative CSS units such as `rem`, `em` and percentages to 
 
 ## 8. References
 
-The following referencing style is used in this project in accordance with The IIE Harvard Referencing Guide.
+The following sources were consulted during the development and documentation of this project.
 
-The Independent Institute of Education (IIE). 2024. *IIE Harvard Style Reference Guide*. Available at: https://irp.cdn-website.com/271d35b6/files/uploaded/The%20IIE%20Harvard%20Style%20Reference%20Guide%20-%20Adapted%20for%20The%20IIE%202024.pdf (Accessed: 2 November 2026).
+1. The Independent Institute of Education (IIE). [Year shown on assignment brief]. *WEDE5020 Portfolio of Evidence (POE) Assignment Brief*. The Independent Institute of Education.
 
-Additional sources consulted during website development will be included in this section using the same Harvard referencing format.
+2. The Independent Institute of Education (IIE). 2024. *IIE Harvard Style Reference Guide*. Available at: https://irp.cdn-website.com/271d35b6/files/uploaded/The%20IIE%20Harvard%20Style%20Reference%20Guide%20-%20Adapted%20for%20The%20IIE%202024.pdf (Accessed: 2 November 2026).
+
+Additional external sources consulted during future development will be acknowledged using The IIE Harvard referencing style.
+
 
 ## 9. Referencing and Academic Integrity
 
