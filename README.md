@@ -30,17 +30,26 @@ The website consists of five HTML pages:
 
 ## 4. Project Structure
 
-- `index.html`
-- `about.html`
-- `menu.html`
-- `enquiry.html`
-- `contact.html`
-- `css/style.css`
-- `images/`
-  - `small/`
-  - `large/`
-- `screenshots/`
-- `README.md`
+KWA MSIA AND FOODS/
+│
+├── index.html
+├── about.html
+├── menu.html
+├── enquiry.html
+├── contact.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── picture/
+│   ├── big/
+│   └── small/
+│
+└── screenshorts/
+    ├── desktop-view.png.jpeg
+    ├── mobile-view.png.jpeg
+    └── tablet.jpeg
 
 ## 5. Responsive Design
 
