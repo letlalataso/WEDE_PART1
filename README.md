@@ -75,13 +75,37 @@ The website also uses relative CSS units such as `rem`, `em` and percentages to 
 - Added responsive images using `srcset` and `sizes`.
 - Captured desktop, tablet and mobile screenshots for responsive design testing.
 
-**Part 3: JavaScript, SEO and Deployment**
-- JavaScript functionality.
-- JavaScript form validation.
-- SEO improvements.
-- Creation of `robots.txt` and `sitemap.xml`.
-- Website security and performance improvements.
-- Final testing and deployment.
+## Part 3: JavaScript, SEO and Deployment
+
+### JavaScript Functionality
+- Created an external JavaScript file called script.js.
+- Implemented a mobile navigation toggle.
+- Added interactive navigation functionality.
+
+### JavaScript Form Validation
+- Implemented enquiry form validation.
+- Implemented contact form validation.
+- Added required field validation.
+- Added confirmation messages after successful form validation.
+
+### SEO Improvements
+- Added SEO titles and meta descriptions to all five HTML pages.
+- Added relevant keywords and author metadata.
+- Created robots.txt to guide search engine crawlers.
+- Created sitemap.xml to help search engines discover website pages.
+
+### Website Security and Performance
+- Used HTML form validation to prevent incomplete submissions.
+- Used external CSS and JavaScript files for better organisation and maintenance.
+- Used responsive images to support different screen sizes.
+
+### Final Testing and Deployment
+- Tested navigation across all five website pages.
+- Tested enquiry and contact forms.
+- Tested the mobile navigation menu.
+- Tested desktop, tablet and mobile layouts.
+- Deployment to be completed.
+
 
 ## 7. Changelog
 

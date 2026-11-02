@@ -249,3 +249,24 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#menu-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #menu-toggle {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-links.show-menu {
+        display: flex;
+    }
+}

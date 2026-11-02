@@ -5,7 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Enquiries | Kwamsia and Foods</title>
+
+    <meta name="description" content="Send Kwamsia and Foods an enquiry about meal prices, availability and large orders in Paarl.">
+    <meta name="keywords" content="food enquiries, meal prices, Paarl, large food orders">
+    <meta name="author" content="Kwamsia and Foods">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -33,7 +39,7 @@
             availability? Complete the form below.
         </p>
 
-        <form>
+        <form id="enquiry-form">
 
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required>
@@ -46,12 +52,12 @@
             <br><br>
 
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone">
+            <input type="tel" id="phone" name="phone" required>
 
             <br><br>
 
             <label for="subject">Enquiry Subject:</label>
-            <select id="subject" name="subject">
+            <select id="subject" name="subject" required>
                 <option value="">Select an option</option>
                 <option value="meal">Meal Information</option>
                 <option value="prices">Prices</option>
@@ -63,7 +69,9 @@
 
             <label for="message">Your Message:</label>
             <br>
-            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+            <textarea id="message" name="message"
+            rows="5" cols="30" required></textarea>
 
             <br><br>
 
@@ -77,5 +85,8 @@
         <p>&copy; 2026 Kwamsia and Foods. All rights reserved.</p>
     </footer>
 
+    <script src="js/script.js"></script>
+
 </body>
 </html>
+
